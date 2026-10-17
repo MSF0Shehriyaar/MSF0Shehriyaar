@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-label="Animated Mohammed Shehriyaar F engineering profile banner">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#070F22"/><stop offset=".52" stop-color="#0B1731"/><stop offset="1" stop-color="#110D30"/></linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#39DAFF"/><stop offset=".50" stop-color="#75A8FF"/><stop offset="1" stop-color="#B889FF"/></linearGradient>
+    <linearGradient id="glass" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#142A46" stop-opacity=".8"/><stop offset="1" stop-color="#17163A" stop-opacity=".55"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#4C66FF" stop-opacity=".21"/><stop offset="1" stop-color="#4C66FF" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#8AA0D1" stroke-opacity=".075" stroke-width="1"/></pattern>
+    <clipPath id="round"><rect width="1198" height="408" x="1" y="1" rx="21"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1200" height="410" fill="url(#bg)"/>
+    <rect width="1200" height="410" fill="url(#grid)"/>
+    <circle cx="926" cy="199" r="246" fill="url(#halo)">
+      <animate attributeName="opacity" values=".45;1;.45" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M0 1H1200" stroke="url(#neon)" stroke-width="3" opacity=".85"/>
+    <path d="M110 95H201" stroke="#42D9FA" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="102" cy="95" r="5" fill="#44E9CE"><animate attributeName="opacity" values="1;.25;1" dur="2.1s" repeatCount="indefinite"/></circle>
+    <text x="222" y="101" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#84D9F9" letter-spacing="3">SOFTWARE ENGINEER / BUILDER</text>
+    <text x="99" y="170" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="53" fill="#F5F9FF" letter-spacing=".4">MOHAMMED</text>
+    <text x="99" y="236" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="58" fill="url(#neon)" letter-spacing=".2">SHEHRIYAAR F</text>
+    <text x="102" y="282" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#B9C7E5">Backend engineering  /  Full-stack systems  /  AI automation</text>
+    <g transform="translate(101 312)">
+      <rect width="157" height="39" rx="19.5" fill="#173144" stroke="#37B9DA" stroke-opacity=".7"/>
+      <circle cx="18" cy="19.5" r="4.5" fill="#50E3BF"><animate attributeName="r" values="4;6;4" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="33" y="25" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#B6F4EB">BUILDING NOW</text>
+      <rect x="170" width="179" height="39" rx="19.5" fill="#1D224B" stroke="#6B76BA" stroke-opacity=".6"/>
+      <text x="187" y="25" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#BFD4FF">JAVA + SPRING BOOT</text>
+    </g>
+    <!-- orbital system -->
+    <g transform="translate(965 203)">
+      <circle r="151" fill="none" stroke="#6AA9E7" stroke-opacity=".17" stroke-width="1.2" stroke-dasharray="6 11"/>
+      <circle r="115" fill="none" stroke="#55D5EE" stroke-opacity=".34" stroke-width="1.4"/>
+      <circle r="80" fill="none" stroke="#886FFE" stroke-opacity=".38" stroke-width="1.4" stroke-dasharray="5 8"/>
+      <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="19s" repeatCount="indefinite"/>
+        <circle cx="0" cy="-151" r="8" fill="#5DE2FF"/><circle cx="0" cy="-151" r="17" fill="#5DE2FF" opacity=".18"/>
+        <circle cx="130" cy="75" r="5" fill="#AA8AFF"/>
+      </g>
+      <g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="13s" repeatCount="indefinite"/>
+        <circle cx="-115" cy="0" r="7" fill="#B18FFF"/><circle cx="-115" cy="0" r="14" fill="#B18FFF" opacity=".2"/>
+        <circle cx="0" cy="115" r="4.5" fill="#54E6C0"/>
+      </g>
+      <circle r="66" fill="url(#glass)" stroke="#4F8BC0" stroke-opacity=".7"/>
+      <circle r="59" fill="none" stroke="#65D6FF" stroke-opacity=".16" stroke-width="2">
+        <animate attributeName="r" values="56;61;56" dur="4.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="0" y="-12" fill="#D6E9FF" font-size="13" text-anchor="middle" font-family="Arial, sans-serif" letter-spacing="2">DESIGN</text>
+      <text x="0" y="10" fill="#57DDF8" font-size="20" font-weight="800" text-anchor="middle" font-family="Arial, sans-serif">BUILD</text>
+      <text x="0" y="30" fill="#D6E9FF" font-size="13" text-anchor="middle" font-family="Arial, sans-serif" letter-spacing="2">SCALE</text>
+      <!-- soft crosshairs -->
+      <path d="M-182 0h31 M151 0h31 M0 -182v31 M0 151v31" stroke="#6FC4FF" stroke-opacity=".23" stroke-width="2"/>
+    </g>
+    <g fill="#74A6D8">
+      <circle cx="787" cy="63" r="2"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" repeatCount="indefinite"/></circle>
+      <circle cx="1122" cy="85" r="2.5"><animate attributeName="opacity" values="1;.1;1" dur="3.1s" repeatCount="indefinite"/></circle>
+      <circle cx="721" cy="323" r="2"><animate attributeName="opacity" values=".1;1;.1" dur="2.7s" repeatCount="indefinite"/></circle>
+      <circle cx="1117" cy="347" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="2.4s" repeatCount="indefinite"/></circle>
+    </g>
+    <path d="M0 408H1200" stroke="url(#neon)" opacity=".7" stroke-width="2"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="408" rx="21" fill="none" stroke="#3A5581" stroke-opacity=".5" stroke-width="2"/>
+</svg>

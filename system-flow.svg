@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="254" viewBox="0 0 1200 254" role="img" aria-label="Animated full-stack architecture pipeline">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A1228"/><stop offset="1" stop-color="#12132D"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#36D4F5"/><stop offset=".5" stop-color="#8599FF"/><stop offset="1" stop-color="#BC8AFF"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#182745"/><stop offset="1" stop-color="#161C3A"/></linearGradient>
+  </defs>
+  <rect width="1200" height="254" rx="20" fill="url(#background)"/>
+  <rect x="1" y="1" width="1198" height="252" rx="19" fill="none" stroke="#334869"/>
+  <text x="55" y="42" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="3" fill="#79A8D8">HOW I CONNECT THE PIECES</text>
+  <path d="M251 137H365 M554 137H665 M854 137H955" stroke="url(#line)" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="6 8">
+    <animate attributeName="stroke-dashoffset" from="0" to="-56" dur="2.5s" repeatCount="indefinite"/>
+  </path>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g><rect x="49" y="81" width="206" height="114" rx="13" fill="url(#card)" stroke="#3A81A7"/><rect x="68" y="102" width="37" height="37" rx="10" fill="#12394D"/><text x="86" y="129" text-anchor="middle" font-size="22" fill="#56D9EE">&lt;/&gt;</text><text x="117" y="122" font-size="21" font-weight="700" fill="#F1F8FF">Frontend</text><text x="68" y="166" font-size="15" fill="#9EB7D9">React · Next.js · TS</text></g>
+    <g><rect x="361" y="81" width="198" height="114" rx="13" fill="url(#card)" stroke="#536CBE"/><rect x="380" y="102" width="37" height="37" rx="10" fill="#1E2A5E"/><text x="398" y="128" text-anchor="middle" font-size="19" fill="#99B7FF">{ }</text><text x="431" y="122" font-size="21" font-weight="700" fill="#F1F8FF">Backend</text><text x="380" y="166" font-size="15" fill="#A4B8E4">Java · Spring Boot</text></g>
+    <g><rect x="662" y="81" width="199" height="114" rx="13" fill="url(#card)" stroke="#8266CC"/><rect x="681" y="102" width="37" height="37" rx="10" fill="#32224F"/><circle cx="699" cy="114" r="5" fill="#C6A3FF"/><path d="M691 124H707" stroke="#C6A3FF" stroke-width="2"/><text x="732" y="122" font-size="21" font-weight="700" fill="#F1F8FF">Data</text><text x="681" y="166" font-size="15" fill="#BBB2E6">SQL · Firebase · APIs</text></g>
+    <g><rect x="951" y="81" width="200" height="114" rx="13" fill="url(#card)" stroke="#9B6FE0"/><rect x="970" y="102" width="37" height="37" rx="10" fill="#382055"/><text x="988" y="128" text-anchor="middle" font-size="23" fill="#E1B5FF">✦</text><text x="1020" y="122" font-size="21" font-weight="700" fill="#F1F8FF">AI Layer</text><text x="970" y="166" font-size="15" fill="#C4B0E2">Gemini · Llama</text></g>
+  </g>
+  <g fill="#66E8FF">
+    <circle r="5"><animateMotion dur="2.3s" repeatCount="indefinite" path="M255 137 H357"/></circle>
+    <circle r="5"><animateMotion dur="2.7s" repeatCount="indefinite" path="M559 137 H657"/></circle>
+    <circle r="5"><animateMotion dur="3.0s" repeatCount="indefinite" path="M861 137 H946"/></circle>
+  </g>
+  <text x="600" y="229" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" letter-spacing="1.5" fill="#758AAC">FROM PIXELS TO PRODUCTION</text>
+</svg>
