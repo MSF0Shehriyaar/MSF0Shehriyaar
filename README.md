@@ -19,9 +19,9 @@
 <img src="./connect.svg?v=3" width="100%" alt="Let's build what's next. Connect on LinkedIn, explore live portfolio, send a direct email, or inspect code on GitHub." />
 
 <p align="center">
-  <a href="https://shehriyaar-portfolio.vercel.app/" target="_blank">Portfolio Website</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/mohammed-shehriyaar-f-4a211a405" target="_blank">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="mailto:mohammedshehriyaarf4@gmail.com">Email</a> &nbsp;·&nbsp;
+  <a href="https://shehriyaar-portfolio.vercel.app/" target="_blank">Portfolio Website</a> &nbsp;&middot;&nbsp;
+  <a href="https://www.linkedin.com/in/mohammed-shehriyaar-f-4a211a405" target="_blank">LinkedIn</a> &nbsp;&middot;&nbsp;
+  <a href="mailto:mohammedshehriyaarf4@gmail.com">Email</a> &nbsp;&middot;&nbsp;
   <a href="https://github.com/MSF0Shehriyaar">GitHub</a>
 </p>
 
