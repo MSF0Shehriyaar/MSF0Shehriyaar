@@ -3,7 +3,7 @@
 </p>
 
 <img src="./about-life.svg?v=4" width="100%" alt="Modern web development, backend microservices, AI and cloud integration. From first interaction to production." />
-
+ 
 <img src="./stack.svg?v=4" width="100%" alt="My stack: Java, TypeScript, JavaScript, Python, React, Next.js, Node.js, Spring Boot, MySQL, PostgreSQL, MongoDB, and LLM APIs." />
 
 ### Things I've built & engineered
