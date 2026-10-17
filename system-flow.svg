@@ -1,25 +1,116 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="254" viewBox="0 0 1200 254" role="img" aria-label="Animated full-stack architecture pipeline">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Animated full-stack system architecture pipeline">
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A1228"/><stop offset="1" stop-color="#12132D"/></linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#36D4F5"/><stop offset=".5" stop-color="#8599FF"/><stop offset="1" stop-color="#BC8AFF"/></linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#182745"/><stop offset="1" stop-color="#161C3A"/></linearGradient>
+    <!-- Background & Glass Gradients -->
+    <linearGradient id="flowBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060B19"/>
+      <stop offset="50%" stop-color="#091226"/>
+      <stop offset="100%" stop-color="#100D28"/>
+    </linearGradient>
+    <linearGradient id="neonBus" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="35%" stop-color="#818CF8"/>
+      <stop offset="70%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#F43F5E"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#13203C" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#141838" stop-opacity="0.7"/>
+    </linearGradient>
+    <clipPath id="flowClip">
+      <rect width="1198" height="258" x="1" y="1" rx="16"/>
+    </clipPath>
   </defs>
-  <rect width="1200" height="254" rx="20" fill="url(#background)"/>
-  <rect x="1" y="1" width="1198" height="252" rx="19" fill="none" stroke="#334869"/>
-  <text x="55" y="42" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="3" fill="#79A8D8">HOW I CONNECT THE PIECES</text>
-  <path d="M251 137H365 M554 137H665 M854 137H955" stroke="url(#line)" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="6 8">
-    <animate attributeName="stroke-dashoffset" from="0" to="-56" dur="2.5s" repeatCount="indefinite"/>
-  </path>
-  <g font-family="Arial, Helvetica, sans-serif">
-    <g><rect x="49" y="81" width="206" height="114" rx="13" fill="url(#card)" stroke="#3A81A7"/><rect x="68" y="102" width="37" height="37" rx="10" fill="#12394D"/><text x="86" y="129" text-anchor="middle" font-size="22" fill="#56D9EE">&lt;/&gt;</text><text x="117" y="122" font-size="21" font-weight="700" fill="#F1F8FF">Frontend</text><text x="68" y="166" font-size="15" fill="#9EB7D9">React · Next.js · TS</text></g>
-    <g><rect x="361" y="81" width="198" height="114" rx="13" fill="url(#card)" stroke="#536CBE"/><rect x="380" y="102" width="37" height="37" rx="10" fill="#1E2A5E"/><text x="398" y="128" text-anchor="middle" font-size="19" fill="#99B7FF">{ }</text><text x="431" y="122" font-size="21" font-weight="700" fill="#F1F8FF">Backend</text><text x="380" y="166" font-size="15" fill="#A4B8E4">Java · Spring Boot</text></g>
-    <g><rect x="662" y="81" width="199" height="114" rx="13" fill="url(#card)" stroke="#8266CC"/><rect x="681" y="102" width="37" height="37" rx="10" fill="#32224F"/><circle cx="699" cy="114" r="5" fill="#C6A3FF"/><path d="M691 124H707" stroke="#C6A3FF" stroke-width="2"/><text x="732" y="122" font-size="21" font-weight="700" fill="#F1F8FF">Data</text><text x="681" y="166" font-size="15" fill="#BBB2E6">SQL · Firebase · APIs</text></g>
-    <g><rect x="951" y="81" width="200" height="114" rx="13" fill="url(#card)" stroke="#9B6FE0"/><rect x="970" y="102" width="37" height="37" rx="10" fill="#382055"/><text x="988" y="128" text-anchor="middle" font-size="23" fill="#E1B5FF">✦</text><text x="1020" y="122" font-size="21" font-weight="700" fill="#F1F8FF">AI Layer</text><text x="970" y="166" font-size="15" fill="#C4B0E2">Gemini · Llama</text></g>
+
+  <g clip-path="url(#flowClip)">
+    <rect width="1200" height="260" fill="url(#flowBg)"/>
+    
+    <!-- Header HUD -->
+    <text x="50" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2.5" fill="#38BDF8">SYSTEM ARCHITECTURE PIPELINE // DATA &amp; INFERENCE FLOW</text>
+    <text x="1150" y="42" font-family="'Consolas', monospace" font-size="11" text-anchor="end" fill="#34D399">● STATUS: LOW LATENCY BUS</text>
+
+    <!-- Main Conduit Rail -->
+    <path d="M 260 140 H 350 M 560 140 H 650 M 860 140 H 950" stroke="url(#neonBus)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="6 8">
+      <animate attributeName="stroke-dashoffset" from="0" to="-56" dur="2s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Module 1: Frontend -->
+    <g transform="translate(50, 75)">
+      <rect width="210" height="126" rx="12" fill="url(#cardGrad)" stroke="#38BDF8" stroke-opacity="0.8" stroke-width="1.5"/>
+      <rect width="210" height="34" rx="12" fill="#0E233C" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1"/>
+      <!-- Icon pill -->
+      <rect x="14" y="8" width="34" height="18" rx="4" fill="#081829" stroke="#38BDF8" stroke-width="1"/>
+      <text x="31" y="21" font-family="'Consolas', monospace" font-size="11" font-weight="700" fill="#38BDF8" text-anchor="middle">&lt;/&gt;</text>
+      <!-- Title -->
+      <text x="56" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Frontend</text>
+      <!-- Tech tags -->
+      <text x="14" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#93C5FD">React • Next.js • TS</text>
+      <text x="14" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">Client State &amp; UI Runtimes</text>
+      <text x="14" y="104" font-family="'Consolas', monospace" font-size="10" fill="#38BDF8">[SSR / SPA / Responsive]</text>
+    </g>
+
+    <!-- Flow Particle 1 -->
+    <circle r="4.5" fill="#38BDF8">
+      <animateMotion dur="1.8s" repeatCount="indefinite" path="M 260 140 H 350"/>
+    </circle>
+
+    <!-- Module 2: Backend -->
+    <g transform="translate(350, 75)">
+      <rect width="210" height="126" rx="12" fill="url(#cardGrad)" stroke="#818CF8" stroke-opacity="0.8" stroke-width="1.5"/>
+      <rect width="210" height="34" rx="12" fill="#151A46" stroke="#818CF8" stroke-opacity="0.3" stroke-width="1"/>
+      <!-- Icon pill -->
+      <rect x="14" y="8" width="34" height="18" rx="4" fill="#0E1236" stroke="#818CF8" stroke-width="1"/>
+      <text x="31" y="21" font-family="'Consolas', monospace" font-size="11" font-weight="700" fill="#818CF8" text-anchor="middle">{ }</text>
+      <!-- Title -->
+      <text x="56" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Backend</text>
+      <!-- Tech tags -->
+      <text x="14" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#C7D2FE">Java • Spring Boot</text>
+      <text x="14" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">REST APIs, Node.js &amp; Auth</text>
+      <text x="14" y="104" font-family="'Consolas', monospace" font-size="10" fill="#818CF8">[Spring Security / JWT]</text>
+    </g>
+
+    <!-- Flow Particle 2 -->
+    <circle r="4.5" fill="#818CF8">
+      <animateMotion dur="1.8s" repeatCount="indefinite" path="M 560 140 H 650"/>
+    </circle>
+
+    <!-- Module 3: Database -->
+    <g transform="translate(650, 75)">
+      <rect width="210" height="126" rx="12" fill="url(#cardGrad)" stroke="#C084FC" stroke-opacity="0.8" stroke-width="1.5"/>
+      <rect width="210" height="34" rx="12" fill="#20133F" stroke="#C084FC" stroke-opacity="0.3" stroke-width="1"/>
+      <!-- Icon pill -->
+      <rect x="14" y="8" width="34" height="18" rx="4" fill="#170C30" stroke="#C084FC" stroke-width="1"/>
+      <text x="31" y="21" font-family="'Consolas', monospace" font-size="10" font-weight="700" fill="#C084FC" text-anchor="middle">[( )]</text>
+      <!-- Title -->
+      <text x="56" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Data Layer</text>
+      <!-- Tech tags -->
+      <text x="14" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#E9D5FF">PostgreSQL • MySQL</text>
+      <text x="14" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">Firebase &amp; Real-Time Schemas</text>
+      <text x="14" y="104" font-family="'Consolas', monospace" font-size="10" fill="#C084FC">[ACID / Indexing / CDC]</text>
+    </g>
+
+    <!-- Flow Particle 3 -->
+    <circle r="4.5" fill="#C084FC">
+      <animateMotion dur="1.8s" repeatCount="indefinite" path="M 860 140 H 950"/>
+    </circle>
+
+    <!-- Module 4: AI Layer -->
+    <g transform="translate(950, 75)">
+      <rect width="200" height="126" rx="12" fill="url(#cardGrad)" stroke="#F43F5E" stroke-opacity="0.8" stroke-width="1.5"/>
+      <rect width="200" height="34" rx="12" fill="#2C0E22" stroke="#F43F5E" stroke-opacity="0.3" stroke-width="1"/>
+      <!-- Icon pill -->
+      <rect x="14" y="8" width="34" height="18" rx="4" fill="#1F0816" stroke="#F43F5E" stroke-width="1"/>
+      <text x="31" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="900" fill="#F43F5E" text-anchor="middle">✦</text>
+      <!-- Title -->
+      <text x="56" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">AI Engine</text>
+      <!-- Tech tags -->
+      <text x="14" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#FECDD3">Gemini • Llama</text>
+      <text x="14" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">Agentic Routing &amp; LLM APIs</text>
+      <text x="14" y="104" font-family="'Consolas', monospace" font-size="10" fill="#F43F5E">[RAG / Function Calling]</text>
+    </g>
+
+    <!-- Bottom Tech Sub-footer -->
+    <text x="600" y="235" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#64748B" letter-spacing="1.5" text-anchor="middle">END-TO-END AUTONOMOUS APPLICATION LIFECYCLE • FROM PIXELS TO PRODUCTION</text>
   </g>
-  <g fill="#66E8FF">
-    <circle r="5"><animateMotion dur="2.3s" repeatCount="indefinite" path="M255 137 H357"/></circle>
-    <circle r="5"><animateMotion dur="2.7s" repeatCount="indefinite" path="M559 137 H657"/></circle>
-    <circle r="5"><animateMotion dur="3.0s" repeatCount="indefinite" path="M861 137 H946"/></circle>
-  </g>
-  <text x="600" y="229" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" letter-spacing="1.5" fill="#758AAC">FROM PIXELS TO PRODUCTION</text>
+
+  <rect x="1" y="1" width="1198" height="258" rx="16" fill="none" stroke="#253556" stroke-width="1.5" stroke-opacity="0.7"/>
 </svg>

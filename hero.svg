@@ -1,62 +1,144 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-label="Animated Mohammed Shehriyaar F engineering profile banner">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Mohammed Shehriyaar F — Full-Stack Developer & AI Systems Engineer">
   <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#070F22"/><stop offset=".52" stop-color="#0B1731"/><stop offset="1" stop-color="#110D30"/></linearGradient>
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#39DAFF"/><stop offset=".50" stop-color="#75A8FF"/><stop offset="1" stop-color="#B889FF"/></linearGradient>
-    <linearGradient id="glass" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#142A46" stop-opacity=".8"/><stop offset="1" stop-color="#17163A" stop-opacity=".55"/></linearGradient>
-    <radialGradient id="halo"><stop stop-color="#4C66FF" stop-opacity=".21"/><stop offset="1" stop-color="#4C66FF" stop-opacity="0"/></radialGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#8AA0D1" stroke-opacity=".075" stroke-width="1"/></pattern>
-    <clipPath id="round"><rect width="1198" height="408" x="1" y="1" rx="21"/></clipPath>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060B19"/>
+      <stop offset="50%" stop-color="#0B132B"/>
+      <stop offset="100%" stop-color="#120D2C"/>
+    </linearGradient>
+    <linearGradient id="cyanViolet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+    <linearGradient id="glassCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#152646" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#17193D" stop-opacity="0.6"/>
+    </linearGradient>
+    <radialGradient id="nebulaGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.32"/>
+      <stop offset="60%" stop-color="#8B5CF6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#060B19" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Grid Pattern -->
+    <pattern id="techGrid" width="45" height="45" patternUnits="userSpaceOnUse">
+      <path d="M 45 0 L 0 0 0 45" fill="none" stroke="#38BDF8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+
+    <!-- Clip Path -->
+    <clipPath id="roundedFrame">
+      <rect width="1198" height="418" x="1" y="1" rx="16"/>
+    </clipPath>
   </defs>
-  <g clip-path="url(#round)">
-    <rect width="1200" height="410" fill="url(#bg)"/>
-    <rect width="1200" height="410" fill="url(#grid)"/>
-    <circle cx="926" cy="199" r="246" fill="url(#halo)">
-      <animate attributeName="opacity" values=".45;1;.45" dur="7s" repeatCount="indefinite"/>
+
+  <g clip-path="url(#roundedFrame)">
+    <!-- Base Background & Grid -->
+    <rect width="1200" height="420" fill="url(#bgGrad)"/>
+    <rect width="1200" height="420" fill="url(#techGrid)"/>
+
+    <!-- Nebula Glow behind Core -->
+    <circle cx="940" cy="210" r="230" fill="url(#nebulaGlow)">
+      <animate attributeName="r" values="210;245;210" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="6s" repeatCount="indefinite"/>
     </circle>
-    <path d="M0 1H1200" stroke="url(#neon)" stroke-width="3" opacity=".85"/>
-    <path d="M110 95H201" stroke="#42D9FA" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="102" cy="95" r="5" fill="#44E9CE"><animate attributeName="opacity" values="1;.25;1" dur="2.1s" repeatCount="indefinite"/></circle>
-    <text x="222" y="101" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#84D9F9" letter-spacing="3">SOFTWARE ENGINEER / BUILDER</text>
-    <text x="99" y="170" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="53" fill="#F5F9FF" letter-spacing=".4">MOHAMMED</text>
-    <text x="99" y="236" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="58" fill="url(#neon)" letter-spacing=".2">SHEHRIYAAR F</text>
-    <text x="102" y="282" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#B9C7E5">Backend engineering  /  Full-stack systems  /  AI automation</text>
-    <g transform="translate(101 312)">
-      <rect width="157" height="39" rx="19.5" fill="#173144" stroke="#37B9DA" stroke-opacity=".7"/>
-      <circle cx="18" cy="19.5" r="4.5" fill="#50E3BF"><animate attributeName="r" values="4;6;4" dur="1.8s" repeatCount="indefinite"/></circle>
-      <text x="33" y="25" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#B6F4EB">BUILDING NOW</text>
-      <rect x="170" width="179" height="39" rx="19.5" fill="#1D224B" stroke="#6B76BA" stroke-opacity=".6"/>
-      <text x="187" y="25" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#BFD4FF">JAVA + SPRING BOOT</text>
-    </g>
-    <!-- orbital system -->
-    <g transform="translate(965 203)">
-      <circle r="151" fill="none" stroke="#6AA9E7" stroke-opacity=".17" stroke-width="1.2" stroke-dasharray="6 11"/>
-      <circle r="115" fill="none" stroke="#55D5EE" stroke-opacity=".34" stroke-width="1.4"/>
-      <circle r="80" fill="none" stroke="#886FFE" stroke-opacity=".38" stroke-width="1.4" stroke-dasharray="5 8"/>
-      <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="19s" repeatCount="indefinite"/>
-        <circle cx="0" cy="-151" r="8" fill="#5DE2FF"/><circle cx="0" cy="-151" r="17" fill="#5DE2FF" opacity=".18"/>
-        <circle cx="130" cy="75" r="5" fill="#AA8AFF"/>
-      </g>
-      <g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="13s" repeatCount="indefinite"/>
-        <circle cx="-115" cy="0" r="7" fill="#B18FFF"/><circle cx="-115" cy="0" r="14" fill="#B18FFF" opacity=".2"/>
-        <circle cx="0" cy="115" r="4.5" fill="#54E6C0"/>
-      </g>
-      <circle r="66" fill="url(#glass)" stroke="#4F8BC0" stroke-opacity=".7"/>
-      <circle r="59" fill="none" stroke="#65D6FF" stroke-opacity=".16" stroke-width="2">
-        <animate attributeName="r" values="56;61;56" dur="4.5s" repeatCount="indefinite"/>
+
+    <!-- Top Neon Accent Line -->
+    <line x1="0" y1="1" x2="1200" y2="1" stroke="url(#cyanViolet)" stroke-width="2" opacity="0.85"/>
+
+    <!-- LEFT SIDE: HUD & TYPOGRAPHY -->
+    <!-- Status Chip -->
+    <g transform="translate(70, 58)">
+      <rect width="320" height="30" rx="15" fill="#0C1B33" stroke="#38BDF8" stroke-opacity="0.5" stroke-width="1"/>
+      <circle cx="16" cy="15" r="5" fill="#34D399">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
       </circle>
-      <text x="0" y="-12" fill="#D6E9FF" font-size="13" text-anchor="middle" font-family="Arial, sans-serif" letter-spacing="2">DESIGN</text>
-      <text x="0" y="10" fill="#57DDF8" font-size="20" font-weight="800" text-anchor="middle" font-family="Arial, sans-serif">BUILD</text>
-      <text x="0" y="30" fill="#D6E9FF" font-size="13" text-anchor="middle" font-family="Arial, sans-serif" letter-spacing="2">SCALE</text>
-      <!-- soft crosshairs -->
-      <path d="M-182 0h31 M151 0h31 M0 -182v31 M0 151v31" stroke="#6FC4FF" stroke-opacity=".23" stroke-width="2"/>
+      <text x="32" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#93C5FD" letter-spacing="1.5">SYSTEM ARCHITECTURE ONLINE // MSF-CORE</text>
     </g>
-    <g fill="#74A6D8">
-      <circle cx="787" cy="63" r="2"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" repeatCount="indefinite"/></circle>
-      <circle cx="1122" cy="85" r="2.5"><animate attributeName="opacity" values="1;.1;1" dur="3.1s" repeatCount="indefinite"/></circle>
-      <circle cx="721" cy="323" r="2"><animate attributeName="opacity" values=".1;1;.1" dur="2.7s" repeatCount="indefinite"/></circle>
-      <circle cx="1117" cy="347" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="2.4s" repeatCount="indefinite"/></circle>
+
+    <!-- Main Title -->
+    <text x="70" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">MOHAMMED</text>
+    <text x="70" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="url(#cyanViolet)" letter-spacing="0.5">SHEHRIYAAR F</text>
+
+    <!-- Subtitle Bar -->
+    <g transform="translate(70, 232)">
+      <line x1="0" y1="10" x2="25" y2="10" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+      <text x="36" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#38BDF8" letter-spacing="2">FULL-STACK DEVELOPER</text>
     </g>
-    <path d="M0 408H1200" stroke="url(#neon)" opacity=".7" stroke-width="2"/>
+
+    <!-- Descriptor -->
+    <text x="70" y="278" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#94A3B8" letter-spacing="0.5">
+      Backend Engineering   •   AI Integration   •   Scalable Systems
+    </text>
+
+    <!-- Telemetry Chips -->
+    <g transform="translate(70, 318)">
+      <!-- Chip 1: Java / Spring Boot -->
+      <g>
+        <rect width="180" height="34" rx="7" fill="#0D1933" stroke="#38BDF8" stroke-opacity="0.6" stroke-width="1"/>
+        <text x="14" y="21" font-family="'Consolas', monospace" font-size="12" fill="#E0F2FE">[CORE] Java • Spring Boot</text>
+      </g>
+      <!-- Chip 2: Client -->
+      <g transform="translate(192, 0)">
+        <rect width="186" height="34" rx="7" fill="#13173D" stroke="#818CF8" stroke-opacity="0.6" stroke-width="1"/>
+        <text x="14" y="21" font-family="'Consolas', monospace" font-size="12" fill="#EDE9FE">[CLIENT] React • Next • TS</text>
+      </g>
+      <!-- Chip 3: AI -->
+      <g transform="translate(390, 0)">
+        <rect width="180" height="34" rx="7" fill="#1C143B" stroke="#C084FC" stroke-opacity="0.6" stroke-width="1"/>
+        <text x="14" y="21" font-family="'Consolas', monospace" font-size="12" fill="#FAE8FF">[AI] Gemini • Llama</text>
+      </g>
+    </g>
+
+    <!-- RIGHT SIDE: 3D FLOATING CORE & ORBITAL SYSTEM -->
+    <g transform="translate(940, 215)">
+      <!-- Orbital Ring 1 -->
+      <g transform="rotate(25)">
+        <ellipse rx="170" ry="60" fill="none" stroke="#38BDF8" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="8 6"/>
+        <g>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+          <circle cx="170" cy="0" r="7" fill="#38BDF8"/>
+          <circle cx="170" cy="0" r="16" fill="#38BDF8" opacity="0.25"/>
+          <line x1="170" y1="0" x2="0" y2="0" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1"/>
+        </g>
+      </g>
+
+      <!-- Orbital Ring 2 -->
+      <g transform="rotate(-35)">
+        <ellipse rx="205" ry="70" fill="none" stroke="#C084FC" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="6 8"/>
+        <g>
+          <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="14s" repeatCount="indefinite"/>
+          <circle cx="-205" cy="0" r="6" fill="#C084FC"/>
+          <circle cx="-205" cy="0" r="14" fill="#C084FC" opacity="0.25"/>
+          <line x1="-205" y1="0" x2="0" y2="0" stroke="#C084FC" stroke-opacity="0.25" stroke-width="1"/>
+        </g>
+      </g>
+
+      <!-- Central Hexagonal Core Structure -->
+      <!-- Hexagon Outer Glass Ring -->
+      <polygon points="0,-95 82,-47 82,47 0,95 -82,47 -82,-47" fill="url(#glassCard)" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.8">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="28s" repeatCount="indefinite"/>
+      </polygon>
+      
+      <!-- Inner Glowing Core -->
+      <polygon points="0,-60 52,-30 52,30 0,60 -52,30 -52,-30" fill="#0C1B38" stroke="#818CF8" stroke-width="1.5" stroke-opacity="0.9">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="20s" repeatCount="indefinite"/>
+      </polygon>
+
+      <!-- Monogram MSF -->
+      <text x="0" y="9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">MSF</text>
+      
+      <!-- Pulse halo around center -->
+      <circle r="46" fill="none" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1.5">
+        <animate attributeName="r" values="44;50;44" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Bottom Accent Border -->
+    <line x1="0" y1="418" x2="1200" y2="418" stroke="url(#cyanViolet)" stroke-width="2" opacity="0.8"/>
   </g>
-  <rect x="1" y="1" width="1198" height="408" rx="21" fill="none" stroke="#3A5581" stroke-opacity=".5" stroke-width="2"/>
+
+  <!-- Border Frame -->
+  <rect x="1" y="1" width="1198" height="418" rx="16" fill="none" stroke="#253556" stroke-width="2" stroke-opacity="0.7"/>
 </svg>
