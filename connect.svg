@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-label="Mohammed Shehriyaar F — Connect">
+  <defs>
+    <linearGradient id="conn-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#c084fc" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.8"/>
+    </linearGradient>
+    <pattern id="conn-dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#38bdf8" fill-opacity="0.08"/>
+    </pattern>
+    <clipPath id="conn-clip">
+      <rect x="1" y="1" width="1198" height="458" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#conn-clip)">
+    <rect width="1200" height="460" fill="#070b16"/>
+    <rect width="1200" height="460" fill="url(#conn-dots)"/>
+
+    <!-- Header -->
+    <g transform="translate(45, 42)">
+      <text font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" font-weight="700" fill="#38bdf8" letter-spacing="2">04 / START A CONVERSATION</text>
+      <text x="0" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="38" font-weight="900" fill="#ffffff" letter-spacing="-0.5">LET'S CONNECT. BUILD SOMETHING GREAT.</text>
+      <text x="0" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#94a3b8">Ideas. Opportunities. Scalable software engineering.</text>
+    </g>
+
+    <!-- 4 Connect Action Cards -->
+    <g transform="translate(45, 140)">
+      <!-- Card 1: LinkedIn -->
+      <g transform="translate(0, 0)">
+        <rect width="260" height="200" rx="14" fill="#0a1429" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.6"/>
+        <text x="24" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24">💼</text>
+        <text x="24" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#ffffff">LinkedIn</text>
+        <text x="24" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#94a3b8">Connect &amp; network</text>
+        <rect x="24" y="140" width="140" height="30" rx="6" fill="#132b54"/>
+        <text x="36" y="160" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#7dd3fc">CONNECT ➔</text>
+      </g>
+
+      <!-- Card 2: Portfolio -->
+      <g transform="translate(283, 0)">
+        <rect width="260" height="200" rx="14" fill="#0d1430" stroke="#818cf8" stroke-width="1.5" stroke-opacity="0.6"/>
+        <text x="24" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24">🌐</text>
+        <text x="24" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#ffffff">Portfolio</text>
+        <text x="24" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#94a3b8">Live interactive work</text>
+        <rect x="24" y="140" width="140" height="30" rx="6" fill="#1e1f63"/>
+        <text x="36" y="160" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#c7d2fe">EXPLORE ➔</text>
+      </g>
+
+      <!-- Card 3: Email -->
+      <g transform="translate(566, 0)">
+        <rect width="260" height="200" rx="14" fill="#1a102e" stroke="#c084fc" stroke-width="1.5" stroke-opacity="0.6"/>
+        <text x="24" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24">✉️</text>
+        <text x="24" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#ffffff">Direct Email</text>
+        <text x="24" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#94a3b8">mohammedshehriyaarf4</text>
+        <rect x="24" y="140" width="140" height="30" rx="6" fill="#3b1d5c"/>
+        <text x="36" y="160" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#f0abfc">SAY HELLO ➔</text>
+      </g>
+
+      <!-- Card 4: GitHub -->
+      <g transform="translate(850, 0)">
+        <rect width="260" height="200" rx="14" fill="#0b1b24" stroke="#34d399" stroke-width="1.5" stroke-opacity="0.6"/>
+        <text x="24" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24">🐙</text>
+        <text x="24" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#ffffff">GitHub</text>
+        <text x="24" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#94a3b8">Inspect repositories</text>
+        <rect x="24" y="140" width="140" height="30" rx="6" fill="#133d36"/>
+        <text x="36" y="160" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#6ee7b7">FOLLOW ➔</text>
+      </g>
+    </g>
+
+    <!-- Bottom Tagline -->
+    <text x="600" y="415" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#64748b" text-anchor="middle" letter-spacing="1.5">
+      GOOD PEOPLE. GOOD IDEAS. LET'S TALK.
+    </text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="458" rx="20" fill="none" stroke="url(#conn-border)" stroke-width="1.5"/>
+</svg>

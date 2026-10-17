@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-label="Mohammed Shehriyaar F — Tech Stack">
+  <defs>
+    <linearGradient id="stack-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0.8"/>
+    </linearGradient>
+    <radialGradient id="stack-core-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="60%" stop-color="#818cf8" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#070b16" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="stack-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#38bdf8" fill-opacity="0.1"/>
+    </pattern>
+    <clipPath id="stack-clip">
+      <rect x="1" y="1" width="1198" height="618" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#stack-clip)">
+    <rect width="1200" height="620" fill="#070b16"/>
+    <rect width="1200" height="620" fill="url(#stack-dots)"/>
+
+    <!-- Header -->
+    <g transform="translate(45, 42)">
+      <text font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" font-weight="700" fill="#38bdf8" letter-spacing="2">02 / MY ENGINE ROOM</text>
+      <text x="0" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="38" font-weight="900" fill="#ffffff" letter-spacing="-0.5">TOOLS CHANGE. CURIOSITY DOESN'T.</text>
+      <text x="0" y="74" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="12" fill="#64748b">LANGUAGES / RUNTIMES / FRAMEWORKS / INTELLIGENCE</text>
+    </g>
+
+    <!-- 3 Categorized Columns -->
+    <!-- Col 1: LANGUAGES -->
+    <g transform="translate(45, 155)">
+      <rect width="350" height="400" rx="14" fill="#0a1224" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.5"/>
+      <rect width="350" height="38" rx="14" fill="#0d2142"/>
+      <text x="20" y="24" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" font-weight="700" fill="#38bdf8">01 / LANGUAGES</text>
+
+      <!-- Language Badges -->
+      <g transform="translate(20, 60)">
+        <!-- Java -->
+        <g transform="translate(0, 0)">
+          <rect width="310" height="46" rx="8" fill="#0e1a33" stroke="#1e293b"/>
+          <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Java</text>
+          <text x="290" y="28" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#38bdf8" text-anchor="end">Core &amp; Enterprise</text>
+        </g>
+        <!-- TypeScript -->
+        <g transform="translate(0, 56)">
+          <rect width="310" height="46" rx="8" fill="#0e1a33" stroke="#1e293b"/>
+          <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">TypeScript</text>
+          <text x="290" y="28" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#38bdf8" text-anchor="end">Strict Typed Systems</text>
+        </g>
+        <!-- JavaScript -->
+        <g transform="translate(0, 112)">
+          <rect width="310" height="46" rx="8" fill="#0e1a33" stroke="#1e293b"/>
+          <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">JavaScript (ES6+)</text>
+          <text x="290" y="28" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#38bdf8" text-anchor="end">Async Runtimes</text>
+        </g>
+        <!-- Python -->
+        <g transform="translate(0, 168)">
+          <rect width="310" height="46" rx="8" fill="#0e1a33" stroke="#1e293b"/>
+          <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Python</text>
+          <text x="290" y="28" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#38bdf8" text-anchor="end">Automation &amp; Data</text>
+        </g>
+        <!-- C / C++ & SQL -->
+        <g transform="translate(0, 224)">
+          <rect width="310" height="46" rx="8" fill="#0e1a33" stroke="#1e293b"/>
+          <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">C / C++ &amp; SQL</text>
+          <text x="290" y="28" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#38bdf8" text-anchor="end">Algorithms &amp; Queries</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Col 2: FRONTEND & RUNTIME -->
+    <g transform="translate(425, 155)">
+      <rect width="350" height="400" rx="14" fill="#0d112b" stroke="#818cf8" stroke-width="1.5" stroke-opacity="0.5"/>
+      <rect width="350" height="38" rx="14" fill="#15174a"/>
+      <text x="20" y="24" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" font-weight="700" fill="#818cf8">02 / FRONTEND ARCHITECTURE</text>
+
+      <g transform="translate(20, 60)">
+        <!-- React 18 -->
+        <g transform="translate(0, 0)">
+          <rect width="310" height="46" rx="8" fill="#12163b" stroke="#1e293b"/>
+          <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">React 18</text>
+          <text x="290" y="28" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#818cf8" text-anchor="end">Hooks &amp; Components</text>
+        </g>
+        <!-- Next.js -->
+        <g transform="translate(0, 56)">
+          <rect width="310" height="46" rx="8" fill="#12163b" stroke="#1e293b"/>
+          <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Next.js</text>
+          <text x="290" y="28" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#818cf8" text-anchor="end">SSR &amp; Routing</text>
+        </g>
+        <!-- Tailwind CSS v4 -->
+        <g transform="translate(0, 112)">
+          <rect width="310" height="46" rx="8" fill="#12163b" stroke="#1e293b"/>
+          <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Tailwind CSS v4</text>
+          <text x="290" y="28" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#818cf8" text-anchor="end">Modern Design Tokens</text>
+        </g>
+        <!-- Vite & Tooling -->
+        <g transform="translate(0, 168)">
+          <rect width="310" height="46" rx="8" fill="#12163b" stroke="#1e293b"/>
+          <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Vite &amp; Bundlers</text>
+          <text x="290" y="28" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#818cf8" text-anchor="end">Instant HMR &amp; Build</text>
+        </g>
+        <!-- Framer Motion -->
+        <g transform="translate(0, 224)">
+          <rect width="310" height="46" rx="8" fill="#12163b" stroke="#1e293b"/>
+          <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Framer Motion</text>
+          <text x="290" y="28" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#818cf8" text-anchor="end">Fluid Interactions</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Col 3: BACKEND, DATA & AI -->
+    <g transform="translate(805, 155)">
+      <rect width="350" height="400" rx="14" fill="#170c24" stroke="#f43f5e" stroke-width="1.5" stroke-opacity="0.5"/>
+      <rect width="350" height="38" rx="14" fill="#2e1026"/>
+      <text x="20" y="24" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" font-weight="700" fill="#f43f5e">03 / BACKEND, DATA &amp; AI</text>
+
+      <g transform="translate(20, 60)">
+        <!-- Spring Boot -->
+        <g transform="translate(0, 0)">
+          <rect width="310" height="46" rx="8" fill="#241126" stroke="#1e293b"/>
+          <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Spring Boot</text>
+          <text x="290" y="28" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#f43f5e" text-anchor="end">REST &amp; Microservices</text>
+        </g>
+        <!-- Node.js & Express -->
+        <g transform="translate(0, 56)">
+          <rect width="310" height="46" rx="8" fill="#241126" stroke="#1e293b"/>
+          <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Node.js &amp; Express</text>
+          <text x="290" y="28" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#f43f5e" text-anchor="end">API Gateways &amp; Webhooks</text>
+        </g>
+        <!-- Relational DBs -->
+        <g transform="translate(0, 112)">
+          <rect width="310" height="46" rx="8" fill="#241126" stroke="#1e293b"/>
+          <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">MySQL &amp; PostgreSQL</text>
+          <text x="290" y="28" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#f43f5e" text-anchor="end">ACID &amp; Indexing</text>
+        </g>
+        <!-- Firebase -->
+        <g transform="translate(0, 168)">
+          <rect width="310" height="46" rx="8" fill="#241126" stroke="#1e293b"/>
+          <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Firebase Firestore</text>
+          <text x="290" y="28" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#f43f5e" text-anchor="end">Real-time &amp; Security</text>
+        </g>
+        <!-- Gemini & Llama -->
+        <g transform="translate(0, 224)">
+          <rect width="310" height="46" rx="8" fill="#241126" stroke="#1e293b"/>
+          <text x="18" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Gemini &amp; Llama</text>
+          <text x="290" y="28" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#f43f5e" text-anchor="end">Autonomous LLM Routing</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Footer -->
+    <text x="600" y="585" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#64748b" text-anchor="middle" letter-spacing="1.5">
+      CODE IS THE ENGINE. ARCHITECTURE IS THE BLUEPRINT. IMPACT IS THE POINT.
+    </text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="618" rx="20" fill="none" stroke="url(#stack-border)" stroke-width="1.5"/>
+</svg>

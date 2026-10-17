@@ -1,144 +1,118 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Mohammed Shehriyaar F — Full-Stack Developer & AI Systems Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-label="Mohammed Shehriyaar F — Hero Banner">
   <defs>
-    <!-- Background Gradients -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060B19"/>
-      <stop offset="50%" stop-color="#0B132B"/>
-      <stop offset="100%" stop-color="#120D2C"/>
+    <linearGradient id="hero-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.8"/>
     </linearGradient>
-    <linearGradient id="cyanViolet" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="50%" stop-color="#818CF8"/>
-      <stop offset="100%" stop-color="#C084FC"/>
-    </linearGradient>
-    <linearGradient id="glassCard" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#152646" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#17193D" stop-opacity="0.6"/>
-    </linearGradient>
-    <radialGradient id="nebulaGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.32"/>
-      <stop offset="60%" stop-color="#8B5CF6" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#060B19" stop-opacity="0"/>
+    <radialGradient id="hero-cyan-glow" cx="80%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#818cf8" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#070b16" stop-opacity="0"/>
     </radialGradient>
-    
-    <!-- Grid Pattern -->
-    <pattern id="techGrid" width="45" height="45" patternUnits="userSpaceOnUse">
-      <path d="M 45 0 L 0 0 0 45" fill="none" stroke="#38BDF8" stroke-opacity="0.07" stroke-width="1"/>
+    <radialGradient id="hero-purple-glow" cx="20%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#070b16" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="hero-dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#38bdf8" fill-opacity="0.1"/>
     </pattern>
-
-    <!-- Clip Path -->
-    <clipPath id="roundedFrame">
-      <rect width="1198" height="418" x="1" y="1" rx="16"/>
+    <clipPath id="hero-clip">
+      <rect x="1" y="1" width="1198" height="578" rx="20"/>
     </clipPath>
   </defs>
 
-  <g clip-path="url(#roundedFrame)">
-    <!-- Base Background & Grid -->
-    <rect width="1200" height="420" fill="url(#bgGrad)"/>
-    <rect width="1200" height="420" fill="url(#techGrid)"/>
+  <g clip-path="url(#hero-clip)">
+    <!-- Base Background -->
+    <rect width="1200" height="580" fill="#070b16"/>
+    <rect width="1200" height="580" fill="url(#hero-dots)"/>
+    <circle cx="940" cy="260" r="320" fill="url(#hero-cyan-glow)"/>
+    <circle cx="220" cy="460" r="260" fill="url(#hero-purple-glow)"/>
 
-    <!-- Nebula Glow behind Core -->
-    <circle cx="940" cy="210" r="230" fill="url(#nebulaGlow)">
-      <animate attributeName="r" values="210;245;210" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="6s" repeatCount="indefinite"/>
-    </circle>
-
-    <!-- Top Neon Accent Line -->
-    <line x1="0" y1="1" x2="1200" y2="1" stroke="url(#cyanViolet)" stroke-width="2" opacity="0.85"/>
-
-    <!-- LEFT SIDE: HUD & TYPOGRAPHY -->
-    <!-- Status Chip -->
-    <g transform="translate(70, 58)">
-      <rect width="320" height="30" rx="15" fill="#0C1B33" stroke="#38BDF8" stroke-opacity="0.5" stroke-width="1"/>
-      <circle cx="16" cy="15" r="5" fill="#34D399">
-        <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <text x="32" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#93C5FD" letter-spacing="1.5">SYSTEM ARCHITECTURE ONLINE // MSF-CORE</text>
+    <!-- Top Technical Metadata Bar -->
+    <g transform="translate(45, 42)">
+      <text font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" font-weight="700" fill="#38bdf8" letter-spacing="2">00 / MSF // FULL-STACK &amp; BACKEND DEVELOPER</text>
+      <text x="820" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#64748b" letter-spacing="1.5">MYSURU &amp; BENGALURU, IN</text>
+      <g transform="translate(1015, -10)">
+        <rect width="115" height="24" rx="12" fill="#0c1b33" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6"/>
+        <circle cx="12" cy="12" r="4" fill="#34d399">
+          <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <text x="24" y="15" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="9" font-weight="700" fill="#93c5fd" letter-spacing="0.5">OPEN TO ROLES</text>
+      </g>
     </g>
 
-    <!-- Main Title -->
-    <text x="70" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">MOHAMMED</text>
-    <text x="70" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="url(#cyanViolet)" letter-spacing="0.5">SHEHRIYAAR F</text>
+    <!-- Main Headline -->
+    <text x="45" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#94a3b8">Hi there, I'm</text>
+    <text x="45" y="195" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="64" font-weight="900" fill="#ffffff" letter-spacing="-0.5">MOHAMMED</text>
+    <text x="45" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="64" font-weight="900" fill="#38bdf8" letter-spacing="-0.5">SHEHRIYAAR F</text>
 
-    <!-- Subtitle Bar -->
-    <g transform="translate(70, 232)">
-      <line x1="0" y1="10" x2="25" y2="10" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
-      <text x="36" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#38BDF8" letter-spacing="2">FULL-STACK DEVELOPER</text>
+    <!-- Subtitle & Role Badges -->
+    <g transform="translate(45, 290)">
+      <rect width="160" height="32" rx="16" fill="#132347" stroke="#38bdf8" stroke-opacity="0.8" stroke-width="1"/>
+      <text x="20" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#e0f2fe">FULL-STACK</text>
+      <text x="100" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#38bdf8">SYSTEMS</text>
+
+      <rect x="175" width="185" height="32" rx="16" fill="#181a4a" stroke="#818cf8" stroke-opacity="0.8" stroke-width="1"/>
+      <text x="195" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#e0e7ff">APPLIED AI &amp; LLMS</text>
+
+      <rect x="375" width="185" height="32" rx="16" fill="#26174a" stroke="#c084fc" stroke-opacity="0.8" stroke-width="1"/>
+      <text x="395" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#fae8ff">JAVA + SPRING BOOT</text>
     </g>
 
-    <!-- Descriptor -->
-    <text x="70" y="278" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#94A3B8" letter-spacing="0.5">
-      Backend Engineering   •   AI Integration   •   Scalable Systems
+    <!-- Bio Description -->
+    <text x="45" y="365" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" fill="#cbd5e1" font-weight="400">
+      Information Science &amp; Engineering scholar at Vidyavardhaka College of Engineering.
+    </text>
+    <text x="45" y="395" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" fill="#94a3b8" font-weight="400">
+      Building robust backend services, microservices, state-driven interfaces, and automated AI agents.
     </text>
 
-    <!-- Telemetry Chips -->
-    <g transform="translate(70, 318)">
-      <!-- Chip 1: Java / Spring Boot -->
-      <g>
-        <rect width="180" height="34" rx="7" fill="#0D1933" stroke="#38BDF8" stroke-opacity="0.6" stroke-width="1"/>
-        <text x="14" y="21" font-family="'Consolas', monospace" font-size="12" fill="#E0F2FE">[CORE] Java • Spring Boot</text>
-      </g>
-      <!-- Chip 2: Client -->
-      <g transform="translate(192, 0)">
-        <rect width="186" height="34" rx="7" fill="#13173D" stroke="#818CF8" stroke-opacity="0.6" stroke-width="1"/>
-        <text x="14" y="21" font-family="'Consolas', monospace" font-size="12" fill="#EDE9FE">[CLIENT] React • Next • TS</text>
-      </g>
-      <!-- Chip 3: AI -->
-      <g transform="translate(390, 0)">
-        <rect width="180" height="34" rx="7" fill="#1C143B" stroke="#C084FC" stroke-opacity="0.6" stroke-width="1"/>
-        <text x="14" y="21" font-family="'Consolas', monospace" font-size="12" fill="#FAE8FF">[AI] Gemini • Llama</text>
-      </g>
+    <!-- Experience Pill Bars -->
+    <g transform="translate(45, 435)">
+      <rect width="520" height="42" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <circle cx="22" cy="21" r="5" fill="#38bdf8"/>
+      <text x="38" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#f8fafc">Ex-Intern @ Torus Solutions</text>
+      <text x="250" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">&bull; 6+ Hackathons Led &bull; Open Source</text>
     </g>
 
-    <!-- RIGHT SIDE: 3D FLOATING CORE & ORBITAL SYSTEM -->
-    <g transform="translate(940, 215)">
-      <!-- Orbital Ring 1 -->
-      <g transform="rotate(25)">
-        <ellipse rx="170" ry="60" fill="none" stroke="#38BDF8" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="8 6"/>
-        <g>
-          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
-          <circle cx="170" cy="0" r="7" fill="#38BDF8"/>
-          <circle cx="170" cy="0" r="16" fill="#38BDF8" opacity="0.25"/>
-          <line x1="170" y1="0" x2="0" y2="0" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1"/>
-        </g>
-      </g>
-
-      <!-- Orbital Ring 2 -->
-      <g transform="rotate(-35)">
-        <ellipse rx="205" ry="70" fill="none" stroke="#C084FC" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="6 8"/>
-        <g>
-          <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="14s" repeatCount="indefinite"/>
-          <circle cx="-205" cy="0" r="6" fill="#C084FC"/>
-          <circle cx="-205" cy="0" r="14" fill="#C084FC" opacity="0.25"/>
-          <line x1="-205" y1="0" x2="0" y2="0" stroke="#C084FC" stroke-opacity="0.25" stroke-width="1"/>
-        </g>
-      </g>
-
-      <!-- Central Hexagonal Core Structure -->
-      <!-- Hexagon Outer Glass Ring -->
-      <polygon points="0,-95 82,-47 82,47 0,95 -82,47 -82,-47" fill="url(#glassCard)" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.8">
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="28s" repeatCount="indefinite"/>
-      </polygon>
-      
-      <!-- Inner Glowing Core -->
-      <polygon points="0,-60 52,-30 52,30 0,60 -52,30 -52,-30" fill="#0C1B38" stroke="#818CF8" stroke-width="1.5" stroke-opacity="0.9">
-        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="20s" repeatCount="indefinite"/>
-      </polygon>
-
-      <!-- Monogram MSF -->
-      <text x="0" y="9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">MSF</text>
-      
-      <!-- Pulse halo around center -->
-      <circle r="46" fill="none" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1.5">
-        <animate attributeName="r" values="44;50;44" dur="3s" repeatCount="indefinite"/>
-        <animate attributeName="stroke-opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
+    <!-- RIGHT SIDE: Monogram Hexagon Emblem -->
+    <g transform="translate(930, 270)">
+      <!-- Outer Rotating Dashed Ring -->
+      <circle r="160" fill="none" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1.5" stroke-dasharray="10 8">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
       </circle>
+      <circle r="195" fill="none" stroke="#818cf8" stroke-opacity="0.2" stroke-width="1.5" stroke-dasharray="8 12">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="30s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Glass Card Hexagon -->
+      <polygon points="0,-100 86,-50 86,50 0,100 -86,50 -86,-50" fill="#0d1b38" stroke="#38bdf8" stroke-width="2">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite"/>
+      </polygon>
+      <polygon points="0,-75 65,-37 65,37 0,75 -65,37 -65,-37" fill="#13254d" stroke="#818cf8" stroke-width="1.5">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="25s" repeatCount="indefinite"/>
+      </polygon>
+
+      <!-- Monogram text -->
+      <text x="0" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="36" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="4">MSF</text>
+      
+      <!-- Pulsing Orbit Dot -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+        <circle cx="160" cy="0" r="7" fill="#38bdf8"/>
+        <circle cx="160" cy="0" r="16" fill="#38bdf8" opacity="0.25"/>
+      </g>
     </g>
 
-    <!-- Bottom Accent Border -->
-    <line x1="0" y1="418" x2="1200" y2="418" stroke="url(#cyanViolet)" stroke-width="2" opacity="0.8"/>
+    <!-- Bottom Status Line -->
+    <g transform="translate(45, 525)">
+      <line x1="0" y1="0" x2="1110" y2="0" stroke="#1e293b" stroke-width="1"/>
+      <text x="0" y="24" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#64748b" letter-spacing="1">LATEST FOCUS: DISTRIBUTED SERVICES &bull; GEMINI &amp; LLAMA AGENTS &bull; CLOUD STATE</text>
+      <text x="1110" y="24" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#38bdf8" text-anchor="end" letter-spacing="1">PORTFOLIO // LIVE</text>
+    </g>
   </g>
 
   <!-- Border Frame -->
-  <rect x="1" y="1" width="1198" height="418" rx="16" fill="none" stroke="#253556" stroke-width="2" stroke-opacity="0.7"/>
+  <rect x="1" y="1" width="1198" height="578" rx="20" fill="none" stroke="url(#hero-border)" stroke-width="1.5"/>
 </svg>

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-label="Mohammed Shehriyaar F — About Architecture">
+  <defs>
+    <linearGradient id="about-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.8"/>
+    </linearGradient>
+    <pattern id="about-dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#818cf8" fill-opacity="0.08"/>
+    </pattern>
+    <clipPath id="about-clip">
+      <rect x="1" y="1" width="1198" height="578" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#about-clip)">
+    <rect width="1200" height="580" fill="#070b16"/>
+    <rect width="1200" height="580" fill="url(#about-dots)"/>
+
+    <!-- Header Section -->
+    <g transform="translate(45, 42)">
+      <text font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" font-weight="700" fill="#38bdf8" letter-spacing="2">01 / FROM THOUGHT TO THING</text>
+      <text x="0" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="38" font-weight="900" fill="#ffffff" letter-spacing="-0.5">IDEAS. ENGINEERED TO SCALE.</text>
+      <text x="0" y="74" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="12" fill="#64748b">github.com / MSF0Shehriyaar / architecture &gt; turn_curiosity_into_impact()</text>
+    </g>
+
+    <!-- 3 Core Pillars Cards -->
+    <!-- Card 1: ARCHITECT -->
+    <g transform="translate(45, 160)">
+      <rect width="350" height="320" rx="14" fill="#0c1529" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.6"/>
+      <rect width="350" height="42" rx="14" fill="#0f2347"/>
+      <text x="24" y="27" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="12" font-weight="700" fill="#38bdf8">01 / ARCHITECT</text>
+      <text x="326" y="27" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="14" fill="#38bdf8" text-anchor="end">⚙️</text>
+
+      <text x="24" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#ffffff">Backend Systems</text>
+      <text x="24" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#38bdf8">Java &bull; Spring Boot &bull; REST</text>
+
+      <text x="24" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="400">
+        Designing modular microservices,
+      </text>
+      <text x="24" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="400">
+        resilient database schemas (MySQL,
+      </text>
+      <text x="24" y="195" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="400">
+        PostgreSQL), and secure authentication
+      </text>
+      <text x="24" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="400">
+        mechanisms with Spring Security &amp; JWT.
+      </text>
+
+      <rect x="24" y="255" width="130" height="28" rx="6" fill="#132b54"/>
+      <text x="36" y="273" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#7dd3fc">[CORE SERVICES]</text>
+    </g>
+
+    <!-- Card 2: ENGINEER -->
+    <g transform="translate(425, 160)">
+      <rect width="350" height="320" rx="14" fill="#0d142d" stroke="#818cf8" stroke-width="1.5" stroke-opacity="0.6"/>
+      <rect width="350" height="42" rx="14" fill="#171954"/>
+      <text x="24" y="27" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="12" font-weight="700" fill="#818cf8">02 / ENGINEER</text>
+      <text x="326" y="27" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="14" fill="#818cf8" text-anchor="end">⚛️</text>
+
+      <text x="24" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#ffffff">Modern Web Clients</text>
+      <text x="24" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#818cf8">React 18 &bull; Next.js &bull; TypeScript</text>
+
+      <text x="24" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="400">
+        Crafting high-speed, interactive web
+      </text>
+      <text x="24" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="400">
+        applications with strict type-safety,
+      </text>
+      <text x="24" y="195" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="400">
+        Tailwind CSS v4 layouts, and smooth
+      </text>
+      <text x="24" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="400">
+        micro-interactions via Framer Motion.
+      </text>
+
+      <rect x="24" y="255" width="130" height="28" rx="6" fill="#1e1f63"/>
+      <text x="36" y="273" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#c7d2fe">[UI / STATE BUS]</text>
+    </g>
+
+    <!-- Card 3: SCALE -->
+    <g transform="translate(805, 160)">
+      <rect width="350" height="320" rx="14" fill="#140f29" stroke="#34d399" stroke-width="1.5" stroke-opacity="0.6"/>
+      <rect width="350" height="42" rx="14" fill="#13362d"/>
+      <text x="24" y="27" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="12" font-weight="700" fill="#34d399">03 / SCALE</text>
+      <text x="326" y="27" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="14" fill="#34d399" text-anchor="end">✦</text>
+
+      <text x="24" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#ffffff">Applied AI &amp; Agents</text>
+      <text x="24" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#34d399">Gemini &bull; Llama &bull; Pipelines</text>
+
+      <text x="24" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="400">
+        Orchestrating multi-LLM synthesis,
+      </text>
+      <text x="24" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="400">
+        real-time webhook event processing,
+      </text>
+      <text x="24" y="195" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="400">
+        contextual memory stores, and
+      </text>
+      <text x="24" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="400">
+        automated human-in-the-loop protocols.
+      </text>
+
+      <rect x="24" y="255" width="130" height="28" rx="6" fill="#164539"/>
+      <text x="36" y="273" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#6ee7b7">[INTELLIGENCE]</text>
+    </g>
+
+    <!-- Footer tagline -->
+    <text x="600" y="530" font-family="'Consolas', 'Fira Code', Menlo, monospace" font-size="11" fill="#64748b" text-anchor="middle" letter-spacing="1.5">
+      CLEAN CODE &bull; PREDICTABLE PERFORMANCE &bull; AUTONOMOUS SYSTEMS
+    </text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="578" rx="20" fill="none" stroke="url(#about-border)" stroke-width="1.5"/>
+</svg>
