@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="./hero.svg?v=2" width="100%" alt="Hi, I'm Mohammed Shehriyaar F — Full-Stack Developer &amp; AI Systems Engineer. Building scalable software, backend services, and practical AI." />
+  <img src="./hero.svg?v=3" width="100%" alt="Hi, I'm Mohammed Shehriyaar F — Full-Stack Developer &amp; AI Systems Engineer. Building scalable software, backend services, and practical AI." />
 </p>
 
-<img src="./about-life.svg?v=2" width="100%" alt="Modern web development, backend microservices, AI and cloud integration. From first interaction to production." />
+<img src="./about-life.svg?v=3" width="100%" alt="Modern web development, backend microservices, AI and cloud integration. From first interaction to production." />
 
-<img src="./stack.svg?v=2" width="100%" alt="My stack: Java, TypeScript, Python, React, Next.js, Node.js, Spring Boot, MySQL, PostgreSQL, and LLM APIs." />
+<img src="./stack.svg?v=3" width="100%" alt="My stack: Java, TypeScript, Python, React, Next.js, Node.js, Spring Boot, MySQL, PostgreSQL, and LLM APIs." />
 
 ### Things I've built
 
@@ -14,9 +14,9 @@
 | [**ReplyAI**](https://shehriyaar-portfolio.vercel.app/) | Enterprise-grade messaging automation infrastructure with dynamic Gemini/Llama routing, webhook deduplication buffers, and supervisor takeover. | **Automation + LLMs** |
 | [**VeriTrust Unified**](https://shehriyaar-portfolio.vercel.app/) | Automated employee background verification & credential validation system with role-based access control (RBAC) and high-throughput Spring Boot REST APIs. | **Security + Spring Boot** |
 
-<img src="./id-dashboard.svg?v=2" width="100%" alt="Mohammed's builder ID and public dashboard. 6+ Hackathons led, Torus Solutions intern, Information Science scholar." />
+<img src="./id-dashboard.svg?v=3" width="100%" alt="Mohammed's builder ID and public dashboard. 6+ Hackathons led, Torus Solutions intern, Information Science scholar." />
 
-<img src="./connect.svg?v=2" width="100%" alt="Let's build what's next. Connect on LinkedIn, explore live portfolio, send a direct email, or inspect code on GitHub." />
+<img src="./connect.svg?v=3" width="100%" alt="Let's build what's next. Connect on LinkedIn, explore live portfolio, send a direct email, or inspect code on GitHub." />
 
 <p align="center">
   <a href="https://shehriyaar-portfolio.vercel.app/" target="_blank">Portfolio Website</a> &nbsp;·&nbsp;
